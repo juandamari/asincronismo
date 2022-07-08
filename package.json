@@ -1,7 +1,6 @@
 {
   "name": "javaasincrono",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,9 @@
     "javascript"
   ],
   "author": "Juan David marin juan_da-mari@hotmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }

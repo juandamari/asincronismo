@@ -10,10 +10,18 @@
   ],
   "author": "Juan David marin juan_da-mari@hotmail.com",
   "license": "MIT",
-  "description": "",
+  "description": "curso de asincrinismo work",
   "dependencies": {
     "node-fetch": "^3.2.8",
     "xmlhttprequest": "^1.8.0"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandamari/asincronismo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juandamari/asincronismo/issues"
+  },
+  "homepage": "https://github.com/juandamari/asincronismo#readme"
 }

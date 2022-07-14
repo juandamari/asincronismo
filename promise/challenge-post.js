@@ -15,11 +15,13 @@ function postData (urlApi, data) {
 }
 
 const data = {
-    "title": "New Product course",
-    "price": 25800,
-    "description": "A description",
+    "title": "210",
+    "price": 25451,
+    "description": "A description for me",
     "categoryId": 1,
     "images": ["https://placeimg.com/640/480/any"]
   }
 
 postData(`${API}/products`, data)
+  .then(response => response.json())
+  .then(data => console.log(data));
